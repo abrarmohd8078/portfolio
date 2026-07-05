@@ -1,3 +1,16 @@
+/* Hero two-column grid layout */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1.3fr 1fr;
+  }
+}
+
 /* Custom utility classes for portfolio */
 
 .text-fg { color: #e6edf3; }

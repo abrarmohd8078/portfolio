@@ -196,7 +196,7 @@ const Hero = () => (
       <div className="absolute -top-40 -left-40 w-[520px] h-[520px] rounded-full bg-teal/5 blur-3xl" />
       <div className="absolute bottom-0 right-0 w-[420px] h-[420px] rounded-full bg-teal/[0.03] blur-3xl" />
     </div>
-    <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[1.3fr,1fr] gap-12 items-center relative">
+    <div className="max-w-6xl mx-auto px-6 hero-grid gap-12 items-center relative">
       <div className="space-y-7">
         <p data-testid="hero-greeting" className="mono text-teal text-sm">Hi, my name is</p>
         <h1 data-testid="hero-name" className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-fg leading-[1.05]">
@@ -244,7 +244,7 @@ const Hero = () => (
               data-testid="hero-photo"
               src={HERO_IMG}
               alt="Mohammed Abrar"
-              className="w-full h-full object-contain object-bottom grayscale hover:grayscale-0 transition-all duration-500"
+              className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-500"
             />
           </div>
         </div>
