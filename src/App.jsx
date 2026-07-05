@@ -203,7 +203,7 @@ const Hero = () => (
           Mohammed Abrar.
         </h1>
         <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-fg-muted leading-[1.1]">
-          I build <span className="text-teal">AI systems</span> with production-grade DevOps.
+          I build <span className="text-teal">AI systems</span> with production-grade <span className="text-teal">DevOps</span>.
         </h2>
         <p className="max-w-xl text-fg-muted leading-relaxed">
           Aspiring AI & DevOps Engineer based in Hyderabad. I design end-to-end AI solutions, automate delivery pipelines, and ship containerized workloads on cloud-native infrastructure.
@@ -261,7 +261,7 @@ const About = () => (
           I&apos;m an <span className="text-fg">AI & DevOps engineer</span> focused on building end-to-end machine learning solutions and shipping them through automated, reproducible pipelines. My work sits at the intersection of applied AI and reliable cloud infrastructure.
         </p>
         <p>
-          I&apos;m currently pursuing a <span className="text-fg">B.E. in Artificial Intelligence and Data Science</span> at ISL Engineering College, graduating in 2026. Along the way I&apos;ve built ML-driven analytics tools, worked through cloud internships, and gone deep on the DevOps toolchain — from containers and orchestration to Infrastructure as Code.
+          I graduated with a <span className="text-fg">B.E. in Artificial Intelligence and Data Science</span> from ISL Engineering College in 2026. Along the way I&apos;ve built ML-driven analytics tools, worked through cloud internships, and gone deep on the DevOps toolchain — from containers and orchestration to Infrastructure as Code.
         </p>
         <p>
           <span className="mono text-teal">// currently exploring</span> DevOps on Kubernetes and LLM orchestration workflows.
