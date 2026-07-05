@@ -244,7 +244,7 @@ const Hero = () => (
               data-testid="hero-photo"
               src={HERO_IMG}
               alt="Mohammed Abrar"
-              className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-500"
+              className="w-full h-full object-cover object-top"
             />
           </div>
         </div>
